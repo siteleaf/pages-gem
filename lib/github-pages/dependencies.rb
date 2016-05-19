@@ -10,6 +10,7 @@ module GitHubPages
 
       # Converters
       "kramdown"                  => "1.10.0",
+      "redcarpet"                 => "3.3.4",
 
       # Misc
       "liquid"                    => "3.0.6",
