@@ -7,7 +7,6 @@ module GitHubPages
     DEFAULT_PLUGINS = %w(
       jekyll-coffeescript
       jekyll-gist
-      jekyll-github-metadata
       jekyll-paginate
     ).freeze
 
@@ -16,7 +15,6 @@ module GitHubPages
       jekyll-coffeescript
       jekyll-feed
       jekyll-gist
-      jekyll-github-metadata
       jekyll-mentions
       jekyll-paginate
       jekyll-redirect-from
