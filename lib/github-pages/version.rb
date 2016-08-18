@@ -1,4 +1,4 @@
 module GitHubPages
-  VERSION = 80
+  VERSION = 91
     .to_s + '-siteleaf'.freeze
 end
