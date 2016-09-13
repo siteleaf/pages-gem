@@ -9,7 +9,7 @@ module GitHubPages
       "jekyll-sass-converter"     => "1.3.0",
 
       # Themes
-      "minima"                    => "1.0.1",
+      "minima"                    => "1.1.0",
 
       # Converters
       "kramdown"                  => "1.11.1",
@@ -22,7 +22,7 @@ module GitHubPages
 
       # Plugins
       "jemoji"                    => "0.7.0",
-      "jekyll-mentions"           => "1.1.3",
+      "jekyll-mentions"           => "1.2.0",
       "jekyll-redirect-from"      => "0.11.0",
       "jekyll-sitemap"            => "0.10.0",
       "jekyll-feed"               => "0.5.1",
