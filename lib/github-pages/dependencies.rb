@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module GitHubPages
   # Dependencies is where all the public dependencies for GitHub Pages are defined,
   # and versions locked. Any plugin for Pages must be specified here with a
@@ -21,13 +22,14 @@ module GitHubPages
       "jemoji"                    => "0.7.0",
       "jekyll-mentions"           => "1.2.0",
       "jekyll-redirect-from"      => "0.11.0",
-      "jekyll-sitemap"            => "0.10.0",
-      "jekyll-feed"               => "0.5.1",
+      "jekyll-sitemap"            => "0.12.0",
+      "jekyll-feed"               => "0.8.0",
       "jekyll-gist"               => "1.4.0",
       "jekyll-paginate"           => "1.1.0",
       "jekyll-coffeescript"       => "1.0.1",
-      "jekyll-seo-tag"            => "2.0.0",
-      "jekyll-github-metadata"    => "2.1.0",
+      "jekyll-seo-tag"            => "2.1.0",
+      "jekyll-github-metadata"    => "2.2.0",
+      "jekyll-avatar"             => "0.4.2",
 
       # Pin listen because it's broken on 2.1 & that's what we recommend.
       # https://github.com/guard/listen/pull/371

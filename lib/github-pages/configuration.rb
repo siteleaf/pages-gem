@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require "securerandom"
 
 module GitHubPages
@@ -20,6 +21,7 @@ module GitHubPages
       jekyll-redirect-from
       jekyll-seo-tag
       jekyll-sitemap
+      jekyll-avatar
       jemoji
     ).freeze
 

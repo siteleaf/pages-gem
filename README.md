@@ -7,10 +7,11 @@ A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a loc
 
 ## Usage
 
-1. Add the following to your project's Gemfile:
+1. Add the following to your project's Gemfile:  
+_Note: Forcing the version with `'104'` is a temporary workaround to avoid [this Bundler issue](https://github.com/bundler/bundler/issues/5154)._
 
   ```ruby
-  gem 'github-pages', group: :jekyll_plugins
+  gem 'github-pages', '104', group: :jekyll_plugins
   ```
 
 2. Run `bundle install`
@@ -24,16 +25,17 @@ The GitHub Pages gem also comes with several command-line tools, contained withi
 #### List dependency versions
 
 ```console
-$ github-pages versions
+$ bundle exec github-pages versions
 +---------------------------+---------+
 | Gem                       | Version |
 +---------------------------+---------+
-| jekyll                    | 3.0.2   |
+| jekyll                    | 3.3.0   |
 | jekyll-sass-converter     | 1.3.0   |
-| jekyll-textile-converter  | 0.1.0   |
-| kramdown                  | 1.9.0   |
-| rdiscount                 | 2.1.8   |
-| ....                      | .....   |
+| kramdown                  | 1.11.1  |
+| liquid                    | 3.0.6   |
+| rouge                     | 1.11.1  |
+| github-pages-health-check | 1.2.0   |
+| ....                      | ....    |
 +---------------------------+---------+
 ```
 
@@ -72,8 +74,6 @@ The GitHub Pages gem seeks to version two aspects of the build environment:
 ### 1. Ruby
 
 The version of Ruby with which Jekyll is executed. Although Jekyll itself may be compatible with prior or future versions of Ruby, different execution environments yield different results. Ruby 1.8.7 parses YAML differently than 1.9.3, for example, and Kramdown has trouble processing `mailto` links prior to 1.9.3. In order to ensure that building locally consistently results in the same build as what appears when published, it's essential that Ruby itself is versioned along side the Gem, despite no known incompatibilities.
-
-**Note**: If you're using `rbenv`, check out [ruby-build-github](https://github.com/parkr/ruby-build-github) for ruby-build, a collection of GitHub-shipped Ruby versions. If you clone down this repository and run `./install.sh support/2.1.0-github`, it should install properly for you.
 
 ### 2. Dependencies
 

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require File.expand_path("../lib/github-pages/dependencies", __FILE__)
 require File.expand_path("../lib/github-pages/version", __FILE__)
 
@@ -16,15 +17,6 @@ Gem::Specification.new do |s|
   all_files               = `git ls-files -z`.split("\x0")
   s.files                 = all_files.grep(%r{^(bin|lib)/|^.rubocop.yml$})
   s.executables           = all_files.grep(%r{^bin/}) { |f| File.basename(f) }
-
-  s.post_install_message = <<-msg
----------------------------------------------------
-Thank you for installing github-pages!
-GitHub Pages recently upgraded to Jekyll 3.0, which
-includes some breaking changes. More information:
-https://github.com/blog/2100-github-pages-jekyll-3
----------------------------------------------------
-msg
 
   GitHubPages::Dependencies.gems.each do |gem, version|
     s.add_dependency(gem, "= #{version}")
