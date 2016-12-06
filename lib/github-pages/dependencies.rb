@@ -6,7 +6,7 @@ module GitHubPages
   class Dependencies
     VERSIONS = {
       # Jekyll
-      "jekyll"                    => "3.3.0",
+      "jekyll"                    => "3.3.1",
       "jekyll-sass-converter"     => "1.3.0",
 
       # Converters
@@ -30,6 +30,7 @@ module GitHubPages
       "jekyll-seo-tag"            => "2.1.0",
       "jekyll-github-metadata"    => "2.2.0",
       "jekyll-avatar"             => "0.4.2",
+      "jekyll-relative-links"     => "0.2.1",
 
       # Pin listen because it's broken on 2.1 & that's what we recommend.
       # https://github.com/guard/listen/pull/371
