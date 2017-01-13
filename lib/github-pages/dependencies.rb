@@ -36,14 +36,17 @@ module GitHubPages
       "jekyll-optional-front-matter" => "0.1.2",
       "jekyll-readme-index"          => "0.0.3",
       "jekyll-default-layout"        => "0.1.4",
-      "jekyll-titles-from-headings"  => "0.1.3",
+      "jekyll-titles-from-headings"  => "0.1.4",
 
       # Pin listen because it's broken on 2.1 & that's what we recommend.
       # https://github.com/guard/listen/pull/371
       "listen"                    => "3.0.6",
 
       # Pin activesupport because 5.0 is broken on 2.1
-      "activesupport"             => "4.2.7"
+      "activesupport"             => "4.2.7",
+
+      # Pin nokogiri to 1.6 because 1.7 dropped support for Ruby 2.0.
+      "nokogiri"                  => "1.6.8.1",
     }.freeze
 
     # Jekyll and related dependency versions as used by GitHub Pages.
@@ -71,7 +74,7 @@ module GitHubPages
         "github-pages"  => VERSION.to_s,
         "html-pipeline" => HTML::Pipeline::VERSION,
         "sass"          => Sass.version[:number],
-        "safe_yaml"     => SafeYAML::VERSION
+        "safe_yaml"     => SafeYAML::VERSION,
       }
     end
   end
