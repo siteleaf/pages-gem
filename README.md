@@ -2,16 +2,17 @@
 
 A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages.
 
-[![Gem Version](https://img.shields.io/gem/v/github-pages.svg)](https://rubygems.org/gems/github-pages)
+[![Gem Version](https://badge.fury.io/rb/github-pages.svg)](https://badge.fury.io/rb/github-pages)
 [![Build Status](https://img.shields.io/travis/github/pages-gem/master.svg)](https://travis-ci.org/github/pages-gem)
 
 ## Usage
 
-1. Add the following to your project's Gemfile:  
-_Note: Forcing the version with `'109'` is a temporary workaround to avoid [this Bundler issue](https://github.com/bundler/bundler/issues/5154)._
+**Important: Make sure you have Bundler > v1.14 by running `gem update bundler` in your terminal before following the next steps.**
+
+1. Add the following to your project's Gemfile:  
 
   ```ruby
-  gem 'github-pages', '109', group: :jekyll_plugins
+  gem 'github-pages', group: :jekyll_plugins
   ```
 
 2. Run `bundle install`
@@ -29,12 +30,12 @@ $ bundle exec github-pages versions
 +---------------------------+---------+
 | Gem                       | Version |
 +---------------------------+---------+
-| jekyll                    | 3.3.0   |
+| jekyll                    | 3.3.1   |
 | jekyll-sass-converter     | 1.3.0   |
-| kramdown                  | 1.11.1  |
+| kramdown                  | 1.13.2  |
 | liquid                    | 3.0.6   |
 | rouge                     | 1.11.1  |
-| github-pages-health-check | 1.2.0   |
+| github-pages-health-check | 1.3.0   |
 | ....                      | ....    |
 +---------------------------+---------+
 ```

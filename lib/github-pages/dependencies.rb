@@ -6,35 +6,35 @@ module GitHubPages
   class Dependencies
     VERSIONS = {
       # Jekyll
-      "jekyll"                    => "3.3.1",
-      "jekyll-sass-converter"     => "1.3.0",
+      "jekyll"                    => "3.4.3",
+      "jekyll-sass-converter"     => "1.5.0",
 
       # Converters
-      "kramdown"                  => "1.11.1",
+      "kramdown"                  => "1.13.2",
       "redcarpet"                 => "3.3.4",
 
       # Misc
       "liquid"                    => "3.0.6",
       "rouge"                     => "1.11.1",
-      "github-pages-health-check" => "1.3.0",
+      "github-pages-health-check" => "1.3.3",
 
       # Plugins
-      "jekyll-redirect-from"   => "0.11.0",
-      "jekyll-sitemap"         => "0.12.0",
-      "jekyll-feed"            => "0.8.0",
+      "jekyll-redirect-from"   => "0.12.1",
+      "jekyll-sitemap"         => "1.0.0",
+      "jekyll-feed"            => "0.9.1",
       "jekyll-gist"            => "1.4.0",
       "jekyll-paginate"        => "1.1.0",
       "jekyll-coffeescript"    => "1.0.1",
       "jekyll-seo-tag"         => "2.1.0",
-      "jekyll-github-metadata" => "2.3.0",
+      "jekyll-github-metadata" => "2.3.1",
       "jekyll-avatar"          => "0.4.2",
 
       # Plugins to match GitHub.com Markdown
-      "jemoji"                       => "0.7.0",
+      "jemoji"                       => "0.8.0",
       "jekyll-mentions"              => "1.2.0",
-      "jekyll-relative-links"        => "0.2.1",
+      "jekyll-relative-links"        => "0.3.0",
       "jekyll-optional-front-matter" => "0.1.2",
-      "jekyll-readme-index"          => "0.0.3",
+      "jekyll-readme-index"          => "0.0.4",
       "jekyll-default-layout"        => "0.1.4",
       "jekyll-titles-from-headings"  => "0.1.4",
 
