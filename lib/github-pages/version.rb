@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 module GitHubPages
-  VERSION = 147
+  VERSION = 152
     .to_s + '-siteleaf'.freeze
 end

@@ -27,7 +27,7 @@ module GitHubPages
       "jekyll-paginate"        => "1.1.0",
       "jekyll-coffeescript"    => "1.0.1",
       "jekyll-seo-tag"         => "2.2.3",
-      "jekyll-github-metadata" => "2.5.1",
+      "jekyll-github-metadata" => "2.7.0",
       "jekyll-avatar"          => "0.4.2",
 
       # Plugins to match GitHub.com Markdown
@@ -37,7 +37,7 @@ module GitHubPages
       "jekyll-optional-front-matter" => "0.2.0",
       "jekyll-readme-index"          => "0.1.0",
       "jekyll-default-layout"        => "0.1.4",
-      "jekyll-titles-from-headings"  => "0.3.0",
+      "jekyll-titles-from-headings"  => "0.4.0",
 
       # Pin listen because it's broken on 2.1 & that's what we recommend.
       # https://github.com/guard/listen/pull/371
