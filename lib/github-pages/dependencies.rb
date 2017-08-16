@@ -7,7 +7,7 @@ module GitHubPages
   class Dependencies
     VERSIONS = {
       # Jekyll
-      "jekyll"                    => "3.5.1",
+      "jekyll"                    => "3.5.2",
       "jekyll-sass-converter"     => "1.5.0",
 
       # Converters
@@ -27,7 +27,7 @@ module GitHubPages
       "jekyll-paginate"        => "1.1.0",
       "jekyll-coffeescript"    => "1.0.1",
       "jekyll-seo-tag"         => "2.2.3",
-      "jekyll-github-metadata" => "2.7.0",
+      "jekyll-github-metadata" => "2.8.0",
       "jekyll-avatar"          => "0.4.2",
 
       # Plugins to match GitHub.com Markdown
