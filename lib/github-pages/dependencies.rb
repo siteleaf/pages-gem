@@ -7,11 +7,11 @@ module GitHubPages
   class Dependencies
     VERSIONS = {
       # Jekyll
-      "jekyll"                    => "3.5.2",
+      "jekyll"                    => "3.6.0",
       "jekyll-sass-converter"     => "1.5.0",
 
       # Converters
-      "kramdown"                  => "1.13.2",
+      "kramdown"                  => "1.14.0",
       "redcarpet"                 => "3.3.4",
 
       # Misc
@@ -21,19 +21,19 @@ module GitHubPages
 
       # Plugins
       "jekyll-redirect-from"   => "0.12.1",
-      "jekyll-sitemap"         => "1.0.0",
+      "jekyll-sitemap"         => "1.1.1",
       "jekyll-feed"            => "0.9.2",
       "jekyll-gist"            => "1.4.1",
       "jekyll-paginate"        => "1.1.0",
-      "jekyll-coffeescript"    => "1.0.1",
+      "jekyll-coffeescript"    => "1.0.2",
       "jekyll-seo-tag"         => "2.3.0",
-      "jekyll-github-metadata" => "2.9.1",
-      "jekyll-avatar"          => "0.4.2",
+      "jekyll-github-metadata" => "2.9.3",
+      "jekyll-avatar"          => "0.5.0",
 
       # Plugins to match GitHub.com Markdown
-      "jemoji"                       => "0.8.0",
+      "jemoji"                       => "0.8.1",
       "jekyll-mentions"              => "1.2.0",
-      "jekyll-relative-links"        => "0.4.1",
+      "jekyll-relative-links"        => "0.5.0",
       "jekyll-optional-front-matter" => "0.2.0",
       "jekyll-readme-index"          => "0.1.0",
       "jekyll-default-layout"        => "0.1.4",
@@ -44,7 +44,7 @@ module GitHubPages
       "listen"                    => "3.0.6",
 
       # Pin activesupport because 5.0 is broken on 2.1
-      "activesupport"             => "4.2.8",
+      "activesupport"             => "4.2.9",
     }.freeze
 
     # Jekyll and related dependency versions as used by GitHub Pages.
